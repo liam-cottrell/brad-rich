@@ -12,7 +12,7 @@ import { useEffect } from "react";
 export default function Home() {
 
   useEffect(() => {
-    // Smooth scroll implementation for anchor links within the header
+    // Smooth scroll implementation for anchor links
     const smoothScroll = (event) => {
       const target = event.target;
       if (target.tagName === 'A' && target.hash && target.hash.startsWith('#')) {
@@ -34,15 +34,8 @@ export default function Home() {
       }
     };
 
-    const header = document.querySelector('header');
-    if (header) {
-      header.addEventListener('click', smoothScroll);
-    }
-    return () => {
-      if (header) {
-        header.removeEventListener('click', smoothScroll);
-      }
-    };
+    document.addEventListener('click', smoothScroll);
+    return () => document.removeEventListener('click', smoothScroll);
   }, []);
 
   return (
