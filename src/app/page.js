@@ -36,7 +36,9 @@ export default function Home() {
 
     const form = document.querySelector('form');
     const handleFormClick = (event) => {
+      if (event.target.tagName !== 'BUTTON') {
       event.stopPropagation();
+      }
     };
 
     document.addEventListener('click', smoothScroll);
@@ -47,7 +49,7 @@ export default function Home() {
     return () => {
       document.removeEventListener('click', smoothScroll);
       if (form) {
-        form.removeEventListener('click', handleFormClick);
+      form.removeEventListener('click', handleFormClick);
       }
     };
   }, []);
