@@ -1,3 +1,4 @@
+
 "use client";
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
@@ -8,8 +9,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
-    const handleScroll = (event) => {
-      // Check if the event target is inside the form
+    const handleScroll = () => {
       if (window.scrollY > 10) {
         setIsScrolled(true);
       } else {
@@ -82,6 +82,7 @@ const Navbar = () => {
           'md:hidden fixed inset-x-0 transition-all duration-300 ease-in-out bg-white shadow-md',
           isMenuOpen ? 'top-[60px] opacity-100' : 'top-[-100%] opacity-0'
         )}
+        style={{ top: isScrolled ? '60px' : '100px' }}
       >
         <div className="container py-4">
           <nav className="flex flex-col space-y-4">
