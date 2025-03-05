@@ -10,10 +10,6 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = (event) => {
       // Check if the event target is inside the form
-      if (event.target.closest('form')) {
-        return;
-      }
-
       if (window.scrollY > 10) {
         setIsScrolled(true);
       } else {

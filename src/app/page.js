@@ -34,8 +34,22 @@ export default function Home() {
       }
     };
 
+    const form = document.querySelector('form');
+    const handleFormClick = (event) => {
+      event.stopPropagation();
+    };
+
     document.addEventListener('click', smoothScroll);
-    return () => document.removeEventListener('click', smoothScroll);
+    if (form) {
+      form.addEventListener('click', handleFormClick);
+    }
+
+    return () => {
+      document.removeEventListener('click', smoothScroll);
+      if (form) {
+        form.removeEventListener('click', handleFormClick);
+      }
+    };
   }, []);
 
   return (
