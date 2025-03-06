@@ -22,7 +22,7 @@ const About = () => {
               src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158" 
               alt="Accounting professionals" 
               className="rounded-xl shadow-lg relative z-10 w-full h-auto object-cover"
-              loading="lazy"
+              loading="preload"
             />
           </div>
           

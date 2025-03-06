@@ -40,7 +40,7 @@ const Hero = () => {
                 src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" 
                 alt="Professional accounting services" 
                 className="rounded-2xl shadow-xl w-full h-auto object-cover relative z-10"
-                loading="lazy"
+                loading="preload"
               />
               <div className="absolute top-6 right-6 bg-white/90 backdrop-blur p-4 rounded-lg shadow-md z-20 max-w-xs animate-fade-in" style={{ animationDelay: '1s' }}>
                 <p className="text-sm font-medium text-gray-800">Trusted by 20+ UK businesses</p>

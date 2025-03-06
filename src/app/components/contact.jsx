@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Building, Mail, Phone } from 'lucide-react';
+import { Mail, Phone } from 'lucide-react';
 import Snackbar from '@mui/material/Snackbar';
 
 export default function Contact() {
@@ -59,6 +59,7 @@ export default function Contact() {
   const [snackbarOpen, setSnackbarOpen] = useState(false);
 
   const handleChange = (e) => {
+    e.stopPropagation();
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
