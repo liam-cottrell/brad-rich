@@ -2,7 +2,6 @@ import nodemailer from "nodemailer";
 
 export default function handler(req, res) {
   console.log(req.body);
-  res.status(200).json({ message: "Email sent" });
   const { businessStructure, industry, turnover, employees, bestTimeToCall, name, phone, email } = req.body;
 
   const transporter = nodemailer.createTransport({
@@ -12,7 +11,7 @@ export default function handler(req, res) {
       pass: process.env.EMAIL_PASS,
     },
   });
-  
+
   console.log(transporter);
 
 
@@ -32,11 +31,14 @@ export default function handler(req, res) {
   };
 
   console.log(mailOptions);
+  
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
       console.log(error);
+      res.status(500).json({ message: "Email not sent", error: error.toString() });
     } else {
       console.log("Email sent: " + info.response);
+      res.status(200).json({ message: "Email sent" });
     }
   });
 }
