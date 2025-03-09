@@ -6,30 +6,30 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      content: "Bradley Richardson has been instrumental in helping our startup navigate complex tax regulations. Their expertise has saved us time and money.",
-      author: "Sarah Johnson",
-      position: "CEO, TechStart Ltd",
+      content: "As a startup sole trader I needed an accountant who would help me through the minefield of starting a business. Brad took the time to answer all questions I had and explain anything I wasn't sure about. Absolute top bloke and really good at what he does. Would recommend 100%",
+      author: "Websters Workshop",
+      position: "CEO",
       rating: 5,
     },
     {
       id: 2,
-      content: "As a small business owner, I needed an accountant who could provide personalized service. Bradley Richardson exceeded my expectations with their attentive and expert guidance.",
-      author: "Michael Chen",
-      position: "Owner, Chen's Restaurant Group",
+      content: "After troubles with an inefficient accountant Bradley was recommended to me. After a chat I decided to bring him on to take care of one of my companies, I very quickly realised he was the accountant I needed and he now takes care of four of my companies. Highly recommend his services.",
+      author: "Owen White",
+      position: "Owner, Not. So. White.",
       rating: 5,
     },
     {
       id: 3,
-      content: "Working with Bradley Richardson has transformed our financial management. Their proactive approach to tax planning has been invaluable for our business growth.",
-      author: "Emma Thompson",
-      position: "Director, Thompson Consulting",
+      content: "Bradley has been dealing with my tax/VAT returns and bookkeeping for around a year now. He is really easy to communicate with and is always available for any queries I may have. His knowledge is second to none and his first class approach has made me more than comfortable to recommend him to friends and colleagues.",
+      author: "Estelle Chambers",
+      position: "",
       rating: 5,
     },
     {
       id: 4,
-      content: "The team at Bradley Richardson provides exceptional service. Their attention to detail and industry knowledge makes them the perfect partner for our accounting needs.",
-      author: "David Patel",
-      position: "CFO, Patel Industries",
+      content: "Bradley has been my accountant for two years he has went above and beyond during those years very professional and extremely timely would recommend him to anyone in need of a good trustworthy accountant.",
+      author: "Joey Williamson",
+      position: "",
       rating: 5,
     },
   ];
@@ -39,7 +39,7 @@ const Testimonials = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((current) => (current + 1) % testimonials.length);
-    }, 5000);
+    }, 8000);
     return () => clearInterval(interval);
   }, [testimonials.length]);
 
@@ -67,14 +67,14 @@ const Testimonials = () => {
                 </svg>
               ))}
             </div>
-            <div className="h-40 md:h-32 flex items-center justify-center">
+            <div className="h-80 md:h-32 flex items-center justify-center">
               {testimonials.map((testimonial, index) => (
                 <div 
                   key={testimonial.id} 
                   className={`transition-opacity duration-500 absolute w-full ${index === activeIndex ? 'opacity-100' : 'opacity-0'}`}
                 >
                   <blockquote className="text-center">
-                    <p className="text-lg md:text-xl text-gray-700 italic mb-6">"{testimonial.content}"</p>
+                    <p className="text-lg md:text-xl text-gray-700 italic mb-6 px-12">"{testimonial.content}"</p>
                     <cite className="not-italic">
                       <div className="font-medium text-gray-900">{testimonial.author}</div>
                       <div className="text-sm text-gray-500 mt-1">{testimonial.position}</div>

@@ -3,7 +3,7 @@ import { Check } from 'lucide-react';
 
 const About = () => {
   const credentials = [
-    "AAT Chartered Accountant",
+    "AAT Accountant",
     "Certified by the AAT",
     "Registered with the Financial Conduct Authority (FCA)",
     "5 years of combined experience",
@@ -21,7 +21,7 @@ const About = () => {
             <img 
               src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158" 
               alt="Accounting professionals" 
-              className="rounded-xl shadow-lg relative z-10 w-full h-auto object-cover"
+              className="rounded-xl shadow-lg relative w-full h-auto object-cover"
               loading="preload"
             />
           </div>
@@ -34,7 +34,7 @@ const About = () => {
               Trusted accountancy services in the UK since 2020
             </h2>
             <p className="text-gray-600 mb-6">
-             Bradley Richardson is a leading chartered account based in the north east.
+             Bradley Richardson is a leading account based in the north east.
             </p>
             <p className="text-gray-600 mb-8">
               I pride myself on my client-focused approach, combining traditional accounting expertise with modern technology to deliver efficient and effective financial services.

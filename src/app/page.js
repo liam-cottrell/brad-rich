@@ -34,8 +34,10 @@ export default function Home() {
       }
     };
 
-    document.addEventListener('click', smoothScroll);
-    return () => document.removeEventListener('click', smoothScroll);
+    const header = document.querySelector('header');
+    
+    header.addEventListener('click', smoothScroll);
+    return () => header.removeEventListener('click', smoothScroll);
   }, []);
 
   return (

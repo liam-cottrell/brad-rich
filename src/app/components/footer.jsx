@@ -32,7 +32,7 @@ const Footer = () => {
           <div>
             <div className="text-xl font-display font-bold text-white mb-4">BR Accountancy</div>
             <p className="text-gray-400 mb-6 max-w-xs">
-              Professional chartered accountant providing expert financial services to businesses across the UK.
+              Professional accountant providing expert financial services to businesses across the UK.
             </p>
             <div className="flex space-x-4">
               <a 

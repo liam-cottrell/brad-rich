@@ -80,6 +80,20 @@ export default function Contact() {
     e.preventDefault();
     if (formData.email) {
       console.log("Form Submitted", formData);
+      fetch('/api/email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      })
+        .then((response) => response.json())
+        .then((data) => {
+          console.log('Success:', data);
+        })
+        .catch((error) => {
+          console.error('Error:', error);
+        });
       setSnackbarOpen(true);
     } else {
       return
@@ -94,7 +108,7 @@ export default function Contact() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
               <div className="animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
                 <div className="inline-block px-3 py-1 rounded-full bg-blue-100 text-blue-700 font-medium text-sm mb-4">
-                  Contact Us
+                  Contact Me
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold mb-6">
                   Let's discuss your financial needs

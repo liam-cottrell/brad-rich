@@ -80,7 +80,7 @@ const Navbar = () => {
       <div
         className={cn(
           'md:hidden fixed inset-x-0 transition-all duration-300 ease-in-out bg-white shadow-md',
-          isMenuOpen ? 'top-[60px] opacity-100' : 'top-[-100%] opacity-0'
+          isMenuOpen ? 'top-[60px]' : 'top-[-100%] hidden'
         )}
         style={{ top: isScrolled ? '60px' : '100px' }}
       >

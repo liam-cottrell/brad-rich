@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <div className="order-2 lg:order-1 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             <div className="inline-block px-3 py-1 rounded-full bg-blue-100 text-blue-700 font-medium text-sm mb-4 animate-fade-in" style={{ animationDelay: '0.4s' }}>
-              Chartered Accountant in Northumberland
+               Accountant in Northumberland
             </div>
             <h1 className="font-bold text-4xl sm:text-5xl md:text-6xl tracking-tight text-gray-900 mb-4">
               Financial clarity <br className="hidden sm:block" />
@@ -39,7 +39,7 @@ const Hero = () => {
               <img 
                 src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" 
                 alt="Professional accounting services" 
-                className="rounded-2xl shadow-xl w-full h-auto object-cover relative z-10"
+                className="rounded-2xl shadow-xl w-full h-auto object-cover relative"
                 loading="preload"
               />
               <div className="absolute top-6 right-6 bg-white/90 backdrop-blur p-4 rounded-lg shadow-md z-20 max-w-xs animate-fade-in" style={{ animationDelay: '1s' }}>
