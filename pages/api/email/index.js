@@ -12,6 +12,9 @@ export default function handler(req, res) {
       pass: process.env.EMAIL_PASS,
     },
   });
+  
+  console.log(transporter);
+
 
   const mailOptions = {
     from: process.env.EMAIL,
@@ -28,6 +31,7 @@ export default function handler(req, res) {
     Best Time to Call: ${bestTimeToCall}\n`,
   };
 
+  console.log(mailOptions);
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
       console.log(error);
