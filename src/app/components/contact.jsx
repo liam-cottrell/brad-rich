@@ -114,7 +114,7 @@ export default function Contact() {
                   Let's discuss your financial needs
                 </h2>
                 <p className="text-gray-600 mb-8 max-w-lg">
-                  Ready to talk about how we can help your business? Fill out the form, and one of our experts will get back to you shortly.
+                  Ready to talk about how we can help your business? Fill out the form, and we will get back to you shortly.
                 </p>
                 
                 <div className="space-y-6">
@@ -125,7 +125,7 @@ export default function Contact() {
                     </div>
                     <div className="ml-4">
                       <h3 className="text-lg font-medium mb-1">Email Me</h3>
-                      <a href="mailto:info@westonandco.uk" className="text-gray-600 hover:text-(--primary)">bradley@braccountancyservices.co.uk</a>
+                      <a href="mailto:bradley@braccountancyservices.co.uk" className="text-gray-600 hover:text-(--primary)">bradley@braccountancyservices.co.uk</a>
                     </div>
                   </div>
                   
@@ -135,7 +135,7 @@ export default function Contact() {
                     </div>
                     <div className="ml-4">
                       <h3 className="text-lg font-medium mb-1">Call Me</h3>
-                      <a href="tel:+442071234567" className="text-gray-600 hover:text-(--primary)">+44 7555 392060</a>
+                      <a href="tel:+01670282552" className="text-gray-600 hover:text-(--primary)">01670282552</a>
                     </div>
                   </div>
                 </div>

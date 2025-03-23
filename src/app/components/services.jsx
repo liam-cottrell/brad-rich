@@ -87,7 +87,7 @@ const Services = () => {
         Comprehensive accounting services for your business
       </h2>
       <p className="text-gray-600 text-lg max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-        I offer a wide range of accounting and financial services to help businesses of all sizes achieve their financial goals.
+        Offering a wide range of accounting and financial services to help businesses of all sizes achieve their financial goals.
       </p>
       </div>
 

@@ -3,12 +3,10 @@ import { Check } from 'lucide-react';
 
 const About = () => {
   const credentials = [
-    "AAT Accountant",
-    "Certified by the AAT",
-    "Registered with the Financial Conduct Authority (FCA)",
-    "5 years of combined experience",
-    "Expertise in UK tax legislation",
-    "Specialized in SME accounting",
+    "AAT Licenced Accountant",
+    "AAT Licenced Bookkeeper",
+    "10+ Years of Experience",
+    "Xero Certified Advisor"
   ];
 
   return (
@@ -19,7 +17,7 @@ const About = () => {
             <div className="absolute -top-4 -left-4 w-24 h-24 bg-(--primary)/10 rounded-lg"></div>
             <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-(--primary)/10 rounded-lg"></div>
             <img 
-              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158" 
+              src="/desk.webp" 
               alt="Accounting professionals" 
               className="rounded-xl shadow-lg relative w-full h-auto object-cover"
               loading="preload"
@@ -33,11 +31,9 @@ const About = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
               Trusted accountancy services in the UK since 2020
             </h2>
-            <p className="text-gray-600 mb-6">
-             Bradley Richardson is a leading account based in the north east.
-            </p>
             <p className="text-gray-600 mb-8">
-              I pride myself on my client-focused approach, combining traditional accounting expertise with modern technology to deliver efficient and effective financial services.
+            We believe great accounting is about more than just numbers — it’s about people, businesses, and the ambitions behind them. Founded with a passion for helping businesses grow, we provide reliable, financial support so you can focus on what you do best.<br /><br />
+            From start-ups to established companies, offering everything from bookkeeping and tax planning to compliance and strategic financial advice. We use cloud technology to give you real-time insights into your finances, ensuring you always feel in control.
             </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">

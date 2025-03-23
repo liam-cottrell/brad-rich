@@ -8,14 +8,14 @@ const Hero = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <div className="order-2 lg:order-1 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             <div className="inline-block px-3 py-1 rounded-full bg-blue-100 text-blue-700 font-medium text-sm mb-4 animate-fade-in" style={{ animationDelay: '0.4s' }}>
-               Accountant in Northumberland
+              Accountancy Practice in Northumberland
             </div>
             <h1 className="font-bold text-4xl sm:text-5xl md:text-6xl tracking-tight text-gray-900 mb-4">
-              Financial clarity <br className="hidden sm:block" />
-              <span className="text-primary">for your business</span>
+              Reliable Accounting <br className="hidden sm:block" />
+              <span className="text-primary">for Ambitious Businesses.</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-lg">
-              I provide tailored accounting solutions for businesses across the UK, helping you focus on what matters most.
+              Providing tailored accounting solutions for businesses across the UK, helping you focus on growing your business.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
@@ -42,7 +42,7 @@ const Hero = () => {
                 className="rounded-2xl shadow-xl w-full h-auto object-cover relative"
                 loading="preload"
               />
-              <div className="absolute top-6 right-6 bg-white/90 backdrop-blur p-4 rounded-lg shadow-md z-20 max-w-xs animate-fade-in" style={{ animationDelay: '1s' }}>
+              {/* <div className="absolute top-6 right-6 bg-white/90 backdrop-blur p-4 rounded-lg shadow-md z-20 max-w-xs animate-fade-in" style={{ animationDelay: '1s' }}>
                 <p className="text-sm font-medium text-gray-800">Trusted by 20+ UK businesses</p>
                 <div className="flex items-center mt-2">
                   <div className="flex -space-x-2">
@@ -60,7 +60,7 @@ const Hero = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
