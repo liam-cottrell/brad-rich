@@ -20,9 +20,8 @@ const Footer = () => {
   ];
   
   const legal = [
-    { name: 'Privacy Policy', href: '#' },
-    { name: 'Terms of Service', href: '#' },
-    { name: 'Cookie Policy', href: '#' },
+    { name: 'Privacy Policy', href: '/policy' },
+    { name: 'Terms of Service', href: '/policy' },
   ];
 
   return (
@@ -36,28 +35,14 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a 
-                href="#" 
-                className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-(--primary) transition-colors"
-                aria-label="Facebook"
-              >
-                <Facebook size={18} />
-              </a>
-              <a 
-                href="#" 
-                className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-(--primary) transition-colors"
-                aria-label="Twitter"
-              >
-                <Twitter size={18} />
-              </a>
-              <a 
-                href="#" 
+                href="https://www.linkedin.com/in/bradley-richardson-maat-6b27691ba/" 
                 className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-(--primary) transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin size={18} />
               </a>
               <a 
-                href="#" 
+                href="https://www.instagram.com/bradrichardsxn/" 
                 className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-(--primary) transition-colors"
                 aria-label="Instagram"
               >
