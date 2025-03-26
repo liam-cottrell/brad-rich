@@ -44,7 +44,7 @@ const Navbar = () => {
         <div className="flex items-center">
           <a href="/">
           <span className="text-xl font-display font-bold text-(--primary)">
-            BR Accountancy
+            BR Accountancy Services
           </span>
           </a>
         </div>

@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Bradley Richardson - Accountant in the North East of England",
-  description: "Bradley Richardson is a highly experienced Accountant based in the North East of England, offering expert financial services and advice to individuals and businesses.",
+  title: "BR Accountancy Services - Accountant in Northumberland, North East of England",
+  description: "Experienced North East Accountant Bradley Richardson provides expert financial services for individuals & businesses in Ashington, Blyth, Bedlington & Morpeth.",
 };
 
 export default function RootLayout({ children }) {

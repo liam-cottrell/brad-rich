@@ -105,7 +105,7 @@ const Footer = () => {
             &copy; {currentYear} BR Accountancy. All rights reserved.
           </p>
           <div className="text-gray-500 text-sm">
-            Registered in England & Wales No. 12345678
+            Registered in England & Wales No. 14862976
           </div>
         </div>
       </div>
