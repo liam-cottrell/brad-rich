@@ -21,6 +21,8 @@ const About = () => {
               alt="Accounting professionals" 
               className="rounded-xl shadow-lg relative w-full h-auto object-cover"
               loading="preload"
+              width={800}
+              height={533}
             />
           </div>
           

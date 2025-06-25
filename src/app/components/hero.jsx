@@ -37,10 +37,12 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-blue-500 rounded-2xl rotate-3 opacity-10"></div>
               <img 
-                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" 
+                src="/hero.webp" 
                 alt="Professional accounting services" 
                 className="rounded-2xl shadow-xl w-full h-auto object-cover relative"
                 loading="preload"
+                width={800}
+                height={533}
               />
               {/* <div className="absolute top-6 right-6 bg-white/90 backdrop-blur p-4 rounded-lg shadow-md z-20 max-w-xs animate-fade-in" style={{ animationDelay: '1s' }}>
                 <p className="text-sm font-medium text-gray-800">Trusted by 20+ UK businesses</p>
