@@ -2,6 +2,7 @@
 "use client";
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import Image from 'next/image';
 import cn from '../lib/utils.ts';
 
 const Navbar = () => {
@@ -42,11 +43,7 @@ const Navbar = () => {
     >
       <div className="container flex items-center justify-between">
         <div className="flex items-center">
-          <a href="/">
-          <span className="text-xl font-display font-bold text-(--primary)">
-            BR Accountancy Services
-          </span>
-          </a>
+        <Image src={"/BR.jpg"} alt="BR Accountancy Logo" width={250} height={150} className="" />
         </div>
 
         {/* Desktop Navigation */}

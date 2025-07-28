@@ -102,7 +102,8 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm mb-4 md:mb-0">
-            &copy; {currentYear} BR Accountancy. All rights reserved.
+            &copy; {currentYear} BR Accountancy. All rights reserved. <br />
+            10 Belsay Grove, Bedlington NE22 5YU
           </p>
           <div className="text-gray-500 text-sm">
             Registered in England & Wales No. 14862976
