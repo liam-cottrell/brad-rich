@@ -14,6 +14,10 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "BR Accountancy Services - Accountant in Northumberland, North East of England",
   description: "Experienced North East Accountant Bradley Richardson provides expert financial services for individuals & businesses in Ashington, Blyth, Bedlington & Morpeth.",
+    verification: {
+    google: "GNyt0vI4QnZsdJVOKwgjSbQx8QXNfhYQrY3wGv7GI5M",
+  },
+
 };
 
 export default function RootLayout({ children }) {
