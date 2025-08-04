@@ -43,7 +43,7 @@ const Navbar = () => {
     >
       <div className="container flex items-center justify-between">
         <div className="flex items-center">
-        <Image src={"/BR.jpg"} alt="BR Accountancy Logo" width={250} height={150} className="" />
+        <Image src={"/BRtransparent.png"} alt="BR Accountancy Logo" width={200} height={50} className=" h-[100px]" />
         </div>
 
         {/* Desktop Navigation */}

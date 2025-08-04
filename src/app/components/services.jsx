@@ -7,7 +7,7 @@ const Services = () => {
   const services = [
     {
       icon: <FileText size={24} className="text-primary" />, 
-      title: 'Book keeping',
+      title: 'Bookkeeping',
       description: 'Efficient and reliable bookkeeping services tailored to your business needs, ensuring accurate financial records.'
     },
     {
@@ -28,7 +28,7 @@ const Services = () => {
     {
       icon: <Users size={24} className="text-primary" />, 
       title: 'Payroll',
-      description: 'Hassle-free payroll processing, including PAYE and National Insurance contributions, ensuring timely payments.'
+      description: 'Hassle-free payroll processing, including PAYE, National Insurance and pension contributions ensuring timely payments.'
     },
     {
       icon: <CreditCard size={24} className="text-primary" />, 

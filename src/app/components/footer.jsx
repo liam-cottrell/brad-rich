@@ -5,16 +5,16 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   const services = [
-    { name: 'Tax Planning', href: '#services' },
+    { name: 'Personal Tax', href: '#services' },
     { name: 'Bookkeeping', href: '#services' },
-    { name: 'Financial Reporting', href: '#services' },
-    { name: 'Business Advisory', href: '#services' },
+    { name: 'Accounts Preperation', href: '#services' },
+    { name: 'Corperation Tax', href: '#services' },
     { name: 'VAT Services', href: '#services' },
-    { name: 'Corporate Finance', href: '#services' },
+    { name: 'Payroll', href: '#services' },
   ];
   
   const company = [
-    { name: 'About Me', href: '#about' },
+    { name: 'About Us', href: '#about' },
     { name: 'Testimonials', href: '#testimonials' },
     { name: 'Contact', href: '#contact' },
   ];
@@ -29,7 +29,7 @@ const Footer = () => {
       <div className="container py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
-            <div className="text-xl font-display font-bold text-white mb-4">BR Accountancy</div>
+            <div className="text-xl font-display font-bold text-white mb-4">BR Accountancy Services Limited</div>
             <p className="text-gray-400 mb-6 max-w-xs">
               Professional accountant providing expert financial services to businesses across the UK.
             </p>
@@ -102,7 +102,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm mb-4 md:mb-0">
-            &copy; {currentYear} BR Accountancy. All rights reserved. <br />
+            &copy; {currentYear} BR Accountancy Services Limited. All rights reserved. <br />
             10 Belsay Grove, Bedlington NE22 5YU
           </p>
           <div className="text-gray-500 text-sm">

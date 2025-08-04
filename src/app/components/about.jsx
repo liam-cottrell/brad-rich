@@ -28,7 +28,7 @@ const About = () => {
           
           <div className="animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
             <div className="inline-block px-3 py-1 rounded-full bg-blue-200 text-blue-700 font-medium text-sm mb-4">
-              About Me
+              About Us
             </div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
               Trusted accountancy services in the UK since 2020

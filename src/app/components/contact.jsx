@@ -108,7 +108,7 @@ export default function Contact() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
               <div className="animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
                 <div className="inline-block px-3 py-1 rounded-full bg-blue-100 text-blue-700 font-medium text-sm mb-4">
-                  Contact Me
+                  Contact Us
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold mb-6">
                   Let's discuss your financial needs
@@ -124,7 +124,7 @@ export default function Contact() {
                       <Mail className="text-(--primary)" size={20} />
                     </div>
                     <div className="ml-4">
-                      <h3 className="text-lg font-medium mb-1">Email Me</h3>
+                      <h3 className="text-lg font-medium mb-1">Email Us</h3>
                       <a href="mailto:hello@braccountancyservices.co.uk" className="text-gray-600 hover:text-(--primary)">hello@braccountancyservices.co.uk</a>
                     </div>
                   </div>
@@ -134,7 +134,7 @@ export default function Contact() {
                       <Phone className="text-(--primary)" size={20} />
                     </div>
                     <div className="ml-4">
-                      <h3 className="text-lg font-medium mb-1">Call Me</h3>
+                      <h3 className="text-lg font-medium mb-1">Call Us</h3>
                       <a href="tel:+01670282552" className="text-gray-600 hover:text-(--primary)">01670282552</a>
                     </div>
                   </div>
@@ -142,7 +142,7 @@ export default function Contact() {
               </div>
               
               <div className="bg-white rounded-xl shadow-sm p-6 md:p-8 animate-fade-in-up flex justify-between flex-col" style={{ animationDelay: '0.4s' }}>
-                <h3 className="text-xl font-bold mb-6">Send Me a Message</h3>
+                <h3 className="text-xl font-bold mb-6">Send Us a Message</h3>
                 <form onSubmit={handleSubmit} className="space-y-5 h-full flex justify-between flex-col min-h-[25rem]">
                   <div className="h-full">
                     <label className="block text-lg font-medium text-gray-700 mb-12">{questions[step].label}</label>
